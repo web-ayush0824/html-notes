@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <!-- GET IS NOT SECURED WHEREAS POST IS SECURED  -->
+    <form action="#" method="post">
+
+    <!-- Label for and input id must be same  -->
+
+    <!-- required will make it requiredm autofocus will make it focused and pattern will add a pattern  -->
+    <label for="username">Enter Your Name</label>
+        <input type="text" name="username" id="username" placeholder="username" required autofocus pattern="#4">
+
+
+        <!-- Name should be same for radio button to select one  -->
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+
+        <input type="checkbox" name="test" id="test">jhacsdc
+
+        <textarea name="testt" id="testt" rows="30" cols="20"></textarea>
+
+
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">banana</option>
+            <option value="tomato">Tomato</option>
+        </select>
+
+    </form>
+
+    <script>
+
+    </script>
+</body>
+</html>

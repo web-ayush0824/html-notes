@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaage Lists and Tables</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Image Tag  -->
+    <!-- src for path and  alt for alternate text is required attribute  -->
+
+    <!-- Relative path  -->
+    <img src="./image.png" alt="Realtive image">
+
+
+    <!-- Absolute Path  -->
+    <img src="https://imgs.search.brave.com/dUBWpk-HiqzP8FTX3WGJqSA1d6aceThHgQb4T2b23Kw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzM3LzgzLzQ1/LzM2MF9GXzgzNzgz/NDU0MF9paTEzWGdm/RVZYUGNnbWxpTER4/MkVTaXBnV3F3ckNo/VC5qcGc"
+        alt="Train Image">
+
+    <!-- Line Break Tag  -->
+    <br>
+    <!-- WIdth and Height attribute which is in pixels by default  -->
+    <img src="./images.png" alt="Test Image">
+    <!-- Table Tag  -->
+
+    <!-- tr for table row
+        th for table head 
+        td for table data  -->
+    <table>
+        <!-- Adding captions  -->
+        <caption>To add a caption</caption>
+        <thead>
+            <tr>
+                <th>S. No.</th>
+                <th>Name</th>
+                <th>Designation</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ayush</td>
+                <td>Wordpress Developer</td>
+            </tr>
+            <!-- Colspan willl take 2 column  -->
+            <!-- Rowspan will take 2 row  -->
+            <tr>
+                <td colspan="2">2</td>
+                <td rowspan="2">Php Developer</td>
+            </tr>
+            <tr>
+                <td colspan="2">2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            Footer
+        </tfoot>
+    </table>
+
+
+    <!-- Lists Tag  -->
+    <!-- 3 types of Lists: ordered, unordered and defination lists   -->
+    <!-- type attribute can be added to change type  -->
+
+    <!-- Unordered Lists  -->
+    <ul>
+        <li>Ayush</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+    </ul>
+
+    <!-- Ordered Lists  -->
+    <ol>
+        <li>Test</li>
+        <li>Test2</li>
+        <li>Test2</li>
+        <li>Test2</li>
+        <li>Test2</li>
+        <li>Test2</li>
+    </ol>
+
+    <!-- Defination lists  -->
+    <dl>
+        <dt>Testing</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, inventore aliquam aspernatur natus nam
+            non cum! Quas a ad quaerat.</dd>
+    </dl>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
